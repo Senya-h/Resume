@@ -1,0 +1,36 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    &__list {
+        margin-top: 1rem;
+        justify-content: center;
+        display: flex;
+        list-style: none;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #fff;
+        padding: 1rem;
+        transition: color .2s;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #bbb;
+        }
+    }
+
+    
+
+    &__delimeter {
+        
+    }
+
+    &__active &__link {
+        color: orangered;
+    }
+}
