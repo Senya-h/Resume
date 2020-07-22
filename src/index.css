@@ -12,5 +12,6 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "opensans-regular";
+  font-family: 'Roboto', "opensans-regular", sans-serif;
+
 }
