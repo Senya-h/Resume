@@ -1,0 +1,68 @@
+.portfolio {
+    width: 100rem;
+
+    border-radius: 6px;
+    overflow: hidden;
+
+    box-shadow: 0 5rem 10rem rgba(50,50,93,.05), 0 1.5rem 3.5rem rgba(50,50,93,.1), 0 0.5rem 1.5rem rgba(0,0,0,.1);
+
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+    &__info {
+        padding: 2rem;
+    }
+
+    & img {
+        width: 45%;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 2rem;
+        margin: 1rem;
+        font-weight: 300;
+    }
+
+    &__about {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    &__technologies {
+        display: flex;
+    }
+
+    &__navigation {
+        display: flex;
+        justify-content: center;
+
+        & > *:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+
+    &__button--1 {
+        background-color: #747fe0;
+        color: #fff;
+
+        & svg {
+            margin-left: .5rem;
+        }
+    }
+
+    &__button--2 {
+        background-color: #fff;
+        color: #747fe0;
+
+        & svg {
+            margin-right: .5rem;
+        }
+    }
+
+
+    &:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+}

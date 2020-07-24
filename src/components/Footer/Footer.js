@@ -47,11 +47,11 @@ const Footer = () => {
 
                 <div className={styles.footer__links}>
                     <a href="https://www.linkedin.com/in/saulius-reka%C5%A1ius-24581419b/" rel="noopener" target="_blank"><FaLinkedin /></a>
-                    <a href="https://github.com/Amkuna" rel="noopener" target="_blank"><FaGithub /></a>
+                    <a href="https://github.com/Amkuna" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
                 </div>
             </div>
 
-            <p className={styles.footer__madeBy}>Made by Saulius Rekašius &copy; {new Date().getFullYear()}</p>
+            <p className={styles.footer__madeBy}>Saulius Rekašius &copy; {new Date().getFullYear()}</p>
         </section>
     )
 };

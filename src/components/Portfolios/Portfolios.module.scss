@@ -1,0 +1,16 @@
+.portfolios {
+
+    &__heading {
+        text-align: center;
+        padding: 2rem;
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+}
