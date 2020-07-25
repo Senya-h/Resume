@@ -1,0 +1,57 @@
+.about {
+    margin: 10rem auto 5rem auto;
+    width: 100rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+    font-family: "Monaco";
+
+    &__bar {
+        height: 2.5rem;
+        background-color: #ccc;
+        padding: 1rem;
+    }
+
+    &__traffic-lights {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 1rem;
+        height: 100%;
+    }
+
+    &__traffic-light {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+
+        &:not(:last-child) {
+            margin-right: 0.8rem;
+        }
+
+        &--1 {
+            background-color: yellow;
+        }
+
+        &--2 {
+            background-color: purple;
+        }
+
+        &--3 {
+            background-color: red;
+
+        }
+    }
+
+    &__code {
+        height: 50rem;
+        background-color: #5a5d7a;
+        padding: 3.5rem;
+        font-size: 1.7rem;
+
+        & > *:not(:last-child) {
+            margin-bottom: 2.5rem;
+        }
+    }
+
+}

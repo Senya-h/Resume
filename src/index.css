@@ -6,6 +6,11 @@
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: "Monaco";
+  src: url("./assets/fonts/Monaco.woff") format("woff");  
+}
+
 html {
   font-size: 62.5%;
 }

@@ -1,0 +1,27 @@
+.command {
+    color: #fff;
+
+    &__output {
+        margin-top: 0.8rem;
+        color: #e7d184;
+    }
+
+    &__outputLink {
+        text-decoration: none;
+        color: #35feff;
+    }
+
+    &__blink {
+        // display: inline-block;
+        // width: 0.8rem;
+        // height: 2rem;
+        background-color: #fff;
+        animation: blink 1s step-start 0s infinite;
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
 
                 <div className={styles.footer__links}>
-                    <a href="https://www.linkedin.com/in/saulius-reka%C5%A1ius-24581419b/" rel="noopener" target="_blank"><FaLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/saulius-reka%C5%A1ius-24581419b/" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a>
                     <a href="https://github.com/Amkuna" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
                 </div>
             </div>
