@@ -28,10 +28,6 @@ const Navbar = () => {
                     <span className={styles.navbar__delimeter}>/</span>
                 </li>
                 <li className={styles.navbar__item}>
-                    <a className={styles.navbar__link} href="#resume">Resume</a>
-                    <span className={styles.navbar__delimeter}>/</span>
-                </li>
-                <li className={styles.navbar__item}>
                     <a className={styles.navbar__link} href="#works">Works</a>
                     <span className={styles.navbar__delimeter}>/</span>
                 </li>

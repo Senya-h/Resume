@@ -34,7 +34,7 @@ const Footer = () => {
     }
 
     return (
-        <section className={styles.footer}>
+        <section id="contact" className={styles.footer}>
             <div style={{padding: '5rem'}}>
                 <h3 className={styles.footer__heading}>Contact Me!</h3>
 

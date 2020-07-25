@@ -1,21 +1,21 @@
 .command {
-    color: #fff;
+    color: #b5aaff;
 
     &__output {
         margin-top: 0.8rem;
-        color: #e7d184;
+        color: #01ffb3;
     }
 
     &__outputLink {
         text-decoration: none;
-        color: #35feff;
+        color: #f68300;
     }
 
     &__blink {
         // display: inline-block;
         // width: 0.8rem;
         // height: 2rem;
-        background-color: #fff;
+        background-color: #b5aaff;
         animation: blink 1s step-start 0s infinite;
     }
 }

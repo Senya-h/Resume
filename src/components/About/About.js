@@ -1,12 +1,19 @@
 import React from 'react';
 import styles from './About.module.scss';
-
+import {FaTerminal} from 'react-icons/fa';
 import Command from '../Command/Command';
 
 const About = () => {
     return (
-        <section className={styles.about}>
+        <section id="about" className={styles.about}>
             <div className={styles.about__bar}>
+                <div className={styles["about__terminal-icons"]}>
+                    <FaTerminal />
+                    <div className={`${styles["about__traffic-light"]} ${styles["about__terminal-pin"]}`}></div>
+                </div>
+                <div className={styles["about__terminal-title"]}>
+                    <h6 className={styles["about__terminal-name"]}>~: node —— Konsole</h6>
+                </div>
                 <div className={styles["about__traffic-lights"]}>
                     <div className={`${styles["about__traffic-light"]} ${styles["about__traffic-light--1"]}`}></div>
                     <div className={`${styles["about__traffic-light"]} ${styles["about__traffic-light--2"]}`}></div>
@@ -39,13 +46,13 @@ const About = () => {
                     input="resume"
                     outputLink={{
                         link: "/saulius-rekasius.pdf",
-                        output: 'resume.pdf'
+                        output: 'saulius-rekasius.pdf'
                     }}
 
                 />
                 <Command 
                     input="interests"
-                    output='"Kaunas, Lithuania"'
+                    output='["music", "volunteering", "swimming", "tv shows"]'
                 />
                 <Command 
                     input="education"

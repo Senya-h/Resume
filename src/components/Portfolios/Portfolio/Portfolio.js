@@ -1,21 +1,17 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import styles from './Portfolio.module.scss';
 import img from '../../../assets/img/hero.jpg';
 import Button from '../../Button/Button';
 import {FaGithub, FaExternalLinkAlt} from 'react-icons/fa';
 
 const Portfolio = (props) => {
-    let technologies = null;
-
-    useEffect(() => {
-        technologies = props.technologies.map((technology, index) => {
-            return (
-                <li key={index} className={styles.portfolio__technology}>
-                    {technology}
-                </li>
-            )
-        })
-    }, []);
+    let technologies = props.technologies.map((technology, index) => {
+        return (
+            <li key={index} className={styles.portfolio__technology}>
+                {technology}
+            </li>
+        )
+    });
 
     return (
         <article className={styles.portfolio}>

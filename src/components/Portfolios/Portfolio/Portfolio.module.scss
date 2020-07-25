@@ -26,17 +26,34 @@
     }
 
     &__about {
-        font-size: 1.5rem;
+        color: #525f7f;
+
+        font-size: 1.6rem;
         margin-bottom: 2rem;
+        line-height: 2.7rem;
     }
 
     &__technologies {
         display: flex;
+        list-style: none;
+    }
+
+    &__technology {
+        border: 2px solid #92eac0;
+        font-size: 1.3rem;
+        color: #525f7f;
+        border-radius: 5px;
+        padding: 0.5rem 0.8rem;
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
     }
 
     &__navigation {
         display: flex;
         justify-content: center;
+        margin-top: 2rem;
 
         & > *:not(:last-child) {
             margin-right: 2rem;
