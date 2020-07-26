@@ -4,7 +4,6 @@ import styles from './Navbar.module.scss';
 const Navbar = () => {
 
     const setActive = (e) => {
-        console.log(e.target);
         e.target.classList.add(styles.navbar__active);
     }
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Portfolio.module.scss';
+
 import img from '../../../assets/img/hero.jpg';
+
 import Button from '../../Button/Button';
 import {FaGithub, FaExternalLinkAlt} from 'react-icons/fa';
 
@@ -15,7 +17,9 @@ const Portfolio = (props) => {
 
     return (
         <article className={styles.portfolio}>
-            <img src={img} alt="project_photo" />
+            <div className={styles["portfolio__image-container"]}>
+                <img src={props.imageSrc} alt="project_photo" />
+            </div>
             <div className={styles.portfolio__info}>
                 <h4 className={styles.portfolio__title}>{props.title}</h4>
                 <p className={styles.portfolio__about}>

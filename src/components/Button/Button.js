@@ -4,7 +4,6 @@ import styles from './Button.module.scss';
 //variant - contained || outlined
 //href - href || null
 const Button = (props) => {
-    console.log(props);
 
     if(props.href) {
         return (

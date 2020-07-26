@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Portfolios.module.scss';
 import Portfolio from './Portfolio/Portfolio';
+import burgerBuilderImage from '../../assets/img/burger_builder.png';
 
 const Portfolios = () => {
 
@@ -11,13 +12,8 @@ const Portfolios = () => {
             <div className={styles.portfolios__list}>
                 <Portfolio
                     title="Burger Builder"
-                    image
+                    imageSrc={burgerBuilderImage}
                     technologies={["HTML5", "CSS3", "JavaScript", "React", "Redux"]}
-                />
-                <Portfolio
-                    title="TITULAS"
-                    image
-                    technologies={[]}
                 />
             </div>
         </section>

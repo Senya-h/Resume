@@ -27,11 +27,18 @@ const Command = (props) => {
         output = (<div>
             [
                 {props.outputLinkArray.map((output, index) => {
-                    return ( <>
-                        "<a className={styles.command__outputLink} href={output.link} rel="noopener noreferrer" target="_blank">{output.output}</a>
+                    return ( <span key={index}>
+                        "<a 
+                            className={styles.command__outputLink} 
+                            href={output.link} 
+                            rel="noopener noreferrer" 
+                            target="_blank"
+                        >
+                            {output.output}
+                        </a>
                         "
                         {props.outputLinkArray.length - 1 !== index? ",": ""}
-                        </ >
+                        </span>
                     )
                 })}
             ]

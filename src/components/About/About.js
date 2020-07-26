@@ -60,7 +60,7 @@ const About = () => {
                 />
                 <Command 
                     input="skills"
-                    output='["HTML5", "CSS3", "Saas", "JS", "React", "Redux", "PHP", "Laravel", "NodeJS"]'
+                    output='["HTML5", "CSS3", "Saas", "JS", "React", "Redux", "PHP", "Laravel", "NodeJS", "Git"]'
                 />
                 <Command 
 

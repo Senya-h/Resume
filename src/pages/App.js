@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer';
 function App() {
 
   window.addEventListener("scroll", () => {
-    console.log(window.scrollY); //the amount scrolled from the top
+    // console.log(window.scrollY); //the amount scrolled from the top
   })
 
   return (
