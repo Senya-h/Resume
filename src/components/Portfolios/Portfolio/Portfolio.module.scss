@@ -1,5 +1,7 @@
+@import "../../../breakpoints";
+
 .portfolio {
-    width: 100rem;
+    max-width: 100rem;
 
     border-radius: 6px;
     overflow: hidden;
@@ -20,11 +22,27 @@
             object-fit: cover;
             clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
             transition: all .5s;
+
+
         }
 
         &:hover > img {
             clip-path: polygon(0 50%, 25% 0, 100% 0, 75% 50%, 100% 100%, 25% 100%);
         }
+
+
+        @media only screen and (max-width: $bp-xl) {
+            width: 350%;
+        }
+
+        @media only screen and (max-width: $bp-lg) {
+            width: 100%;
+            background: linear-gradient(to bottom, #174466, transparent);
+        }
+    }
+
+    @media only screen and (max-width: $bp-lg) {
+        flex-direction: column;
     }
 
     &__info {
@@ -36,6 +54,10 @@
         margin: 2rem 0;
         font-weight: 400;
         color: #174466;
+
+        @media only screen and (max-width: $bp-md) {
+            font-size: 3.5rem;
+        }
     }
 
     &__about {
@@ -44,6 +66,10 @@
         font-size: 1.6rem;
         margin-bottom: 2rem;
         line-height: 2.7rem;
+
+        @media only screen and (max-width: $bp-md) {
+            font-size: 1.9rem;
+        }
     }
 
     &__technologies {
@@ -60,6 +86,10 @@
 
         &:not(:last-child) {
             margin-right: 1rem;
+        }
+
+        @media only screen and (max-width: $bp-md) {
+            font-size: 1.5rem;
         }
     }
 

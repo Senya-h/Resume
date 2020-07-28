@@ -2,13 +2,15 @@
     color: #b5aaff;
 
     &__output {
-        margin-top: 0.8rem;
+        margin-top: 0.5rem;
         color: #01ffb3;
+        line-height: 3rem;
     }
 
     &__outputLink {
         text-decoration: none;
         color: #f68300;
+        display: inline-block;
     }
 
     &__blink {
@@ -17,6 +19,7 @@
         // height: 2rem;
         background-color: #b5aaff;
         animation: blink 1s step-start 0s infinite;
+        margin-bottom: 1rem;
     }
 }
 

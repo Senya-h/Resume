@@ -9,7 +9,10 @@
 
     &__content {
         position: absolute;
-        top: 50%;
+        width: 100%;
+        padding: 1rem;
+        
+        top: 47%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;

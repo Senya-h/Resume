@@ -29,7 +29,7 @@ const About = () => {
                     input="contactInfo"
                     outputLinkArray={[
                         {
-                            link: "gmail",
+                            link: "mailto:rekassaul@gmail.com",
                             output: "rekassaul@gmail.com"
                         },
                         {
