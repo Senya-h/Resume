@@ -7,7 +7,7 @@ const Button = (props) => {
 
     if(props.href) {
         return (
-            <a href={props.href} className={`${styles.button} ${props.className}`} >
+            <a {...props} href={props.href} className={`${styles.button} ${props.className}`} >
                 {props.children}
             </a>
         )

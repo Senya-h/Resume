@@ -14,6 +14,8 @@ const Portfolios = () => {
                     title="Burger Builder"
                     imageSrc={burgerBuilderImage}
                     technologies={["HTML5", "CSS3", "JavaScript", "React", "Redux"]}
+                    description="Order your own built burger! Rebuilt and expanded from Maximilian Schwarzmüller's design for Burger Builder."
+                    sourceLink="https://github.com/Amkuna/burger-builder"
                 />
             </div>
         </section>
