@@ -30,7 +30,7 @@ const Portfolio = (props) => {
                 <div className={styles.portfolio__navigation}>
                     <Button 
                         className={styles['portfolio__button--1']} 
-                        href="https://www.google.com"
+                        href={props.demoLink}
                         target="_blank"
                         rel="noopener noreferrer"
                     >

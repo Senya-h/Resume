@@ -13,6 +13,7 @@ const Portfolios = () => {
                 <Portfolio
                     title="Burger Builder"
                     imageSrc={burgerBuilderImage}
+                    demoLink="https://rekasius-burger.netlify.app/"
                     technologies={["HTML5", "CSS3", "JavaScript", "React", "Redux"]}
                     description="Order your own built burger! Rebuilt and expanded from Maximilian Schwarzmüller's design for Burger Builder."
                     sourceLink="https://github.com/Amkuna/burger-builder"
